@@ -12,7 +12,7 @@ module.exports = {
       resolve: {
         mainFields: ['module', 'main', 'browser']
       },
-      pathPrefix: `/`
+      pathPrefix: `/gridsome`,
     }, config)
   }
   
