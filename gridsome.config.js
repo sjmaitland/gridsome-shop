@@ -11,7 +11,9 @@ module.exports = {
     return merge({
       resolve: {
         mainFields: ['module', 'main', 'browser']
-      }
+      },
+      pathPrefix: `/`
     }, config)
   }
+  
 }
